@@ -1,39 +1,119 @@
-# Mohammed Hazeem Shafi
+# Zephyrus — Developer Portfolio
 
-**Computer Science Student · Web Developer · Aspiring ML Engineer**
+A personal developer portfolio built with React and Vite, featuring a Matrix-inspired aesthetic, animated digital rain, and a terminal-style interface.
 
-I'm a Computer Science student at Pace Institute of Technology & Sciences who enjoys building web projects and exploring how software works. Currently strengthening my development skills through hands-on projects and learning new technologies.
+The project presents my background, technical skills, selected projects, and contact information through an interactive, responsive experience.
 
-[Portfolio](https://mhazeemshafi.github.io/HazeemPortfolio/) · [LinkedIn](https://in.linkedin.com/in/mohammed-hazeem-shafi-b06aa9386) · [Email](mailto:stryker461@gmail.com)
+## Preview
+
+**Live Demo:** [View Portfolio](https://mhazeemshafi.github.io/hazeemportfoliov2/)
+
+## Features
+
+* **Matrix-inspired interface** with a dark, green-accented visual theme.
+* **Animated digital rain** background.
+* **Terminal-style design** for a distinctive developer experience.
+* **About and Education** sections presenting my background.
+* **Skills and Projects** sections highlighting technologies and work.
+* **Contact links** for connecting professionally.
+* **Responsive layout** for desktop and mobile screens.
+
+## Tech Stack
+
+| Technology | Purpose                                    |
+| ---------- | ------------------------------------------ |
+| React      | UI components and application structure    |
+| Vite       | Development server and build tooling       |
+| JavaScript | Application logic and interactions         |
+| CSS        | Styling, animations, and responsive layout |
+| HTML5      | Application entry point                    |
+
+## Getting Started
+
+### Prerequisites
+
+* [Node.js](https://nodejs.org/) (LTS recommended)
+* npm
+* Git
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MHazeemshafi/hazeemportfoliov2.git
+cd hazeemportfoliov2
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+### Production Build
+
+Create an optimized production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+The generated production files are placed in the `dist/` directory.
+
+## Project Structure
+
+```text
+hazeemportfoliov2/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Deployment
+
+This project can be deployed using GitHub Pages or another static hosting provider.
+
+For GitHub Pages, configure Vite's `base` path to match the repository name when deploying to a repository-specific URL:
+
+```js
+export default {
+  base: '/hazeemportfoliov2/',
+}
+```
+
+If using `vite.config.js`, add the `base` option to the existing configuration rather than replacing other settings. Then build and deploy the generated `dist/` directory using your chosen GitHub Pages workflow.
+
+## Author
+
+**Mohammed Hazeem Shafi**
+
+* GitHub: [@MHazeemshafi](https://github.com/MHazeemshafi)
+* LinkedIn: [Mohammed Hazeem Shafi](https://in.linkedin.com/in/mohammed-hazeem-shafi-b06aa9386)
+* Portfolio: [HazeemPortfolio](https://mhazeemshafi.github.io/HazeemPortfolio/)
 
 ---
 
-### Tech Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,python,c&theme=dark" alt="HTML, CSS, JavaScript, Java, Python, C" />
-</p>
-
-### Featured Projects
-
-| Project                     | Description                                 | Links                                                                                                                             |
-| --------------------------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **GitHub Profile Analyzer** | A web tool for exploring GitHub profiles.   | [Live](https://mhazeemshafi.github.io/github-profile-analyzer/) · [Code](https://github.com/MHazeemshafi/github-profile-analyzer) |
-| **PixelShrink**             | A web-based image compression project.      | [Live](https://mhazeemshafi.github.io/PixelShrink/) · [Code](https://github.com/MHazeemshafi/PixelShrink)                         |
-| **Ec0Watt**                 | A project focused on energy awareness.      | [Live](https://mhazeemshafi.github.io/Ec0Watt/)                                                                                   |
-| **Portfolio**               | My personal portfolio and project showcase. | [Visit](https://mhazeemshafi.github.io/HazeemPortfolio/)                                                                          |
-
----
-
-### Currently
-
-* Improving my web development skills.
-* Exploring machine learning and software development.
-* Building projects to apply what I learn.
-
----
-
-<p align="center">
-  <i>Learning by building. Improving with every project.</i>
-</p>
+*Built with React, Vite, and a little inspiration from the Matrix.*
 
