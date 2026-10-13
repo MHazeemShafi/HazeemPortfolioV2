@@ -1,38 +1,44 @@
-# Zephyrus — Developer Portfolio
+# Zephyrus — Personal Portfolio
 
-A personal developer portfolio built with React and Vite, featuring a Matrix-inspired aesthetic, animated digital rain, and a terminal-style interface.
+A Matrix-inspired developer portfolio built with React and Vite. Zephyrus combines animated digital rain, a terminal-inspired interface, and a minimal dark aesthetic to present my skills, projects, and background.
 
-The project presents my background, technical skills, selected projects, and contact information through an interactive, responsive experience.
+<p align="center">
+  <a href="https://mhazeemshafi.github.io/HazeemPortfolioV2/">
+    <strong>↗ Visit the Live Portfolio</strong>
+  </a>
+</p>
 
-## Preview
+---
 
-**Live Demo:** [View Portfolio](https://mhazeemshafi.github.io/hazeemportfoliov2/)
+## Overview
 
-## Features
+Zephyrus is my personal portfolio project, designed around a distinctive terminal-style experience rather than a conventional portfolio layout.
 
-* **Matrix-inspired interface** with a dark, green-accented visual theme.
-* **Animated digital rain** background.
-* **Terminal-style design** for a distinctive developer experience.
-* **About and Education** sections presenting my background.
-* **Skills and Projects** sections highlighting technologies and work.
-* **Contact links** for connecting professionally.
-* **Responsive layout** for desktop and mobile screens.
+### Features
+
+* **Matrix-inspired aesthetic** — dark interface with green accents.
+* **Animated background** — digital rain effect.
+* **Terminal-inspired UI** — interactive, developer-focused presentation.
+* **About & Education** — background and academic information.
+* **Skills & Projects** — selected work and technical skills.
+* **Contact links** — quick access to professional profiles.
+* **Responsive design** — adapts to different screen sizes.
 
 ## Tech Stack
 
-| Technology | Purpose                                    |
-| ---------- | ------------------------------------------ |
-| React      | UI components and application structure    |
-| Vite       | Development server and build tooling       |
-| JavaScript | Application logic and interactions         |
-| CSS        | Styling, animations, and responsive layout |
-| HTML5      | Application entry point                    |
+| Technology | Usage                                    |
+| ---------- | ---------------------------------------- |
+| React      | Component-based user interface           |
+| Vite       | Development server and production builds |
+| JavaScript | Application logic and interactions       |
+| CSS        | Layout, visual effects, and animations   |
+| HTML5      | Web application structure                |
 
 ## Getting Started
 
 ### Prerequisites
 
-* [Node.js](https://nodejs.org/) (LTS recommended)
+* Node.js (LTS recommended)
 * npm
 * Git
 
@@ -41,8 +47,8 @@ The project presents my background, technical skills, selected projects, and con
 Clone the repository:
 
 ```bash
-git clone https://github.com/MHazeemshafi/hazeemportfoliov2.git
-cd hazeemportfoliov2
+git clone https://github.com/MHazeemShafi/HazeemPortfolioV2.git
+cd HazeemPortfolioV2
 ```
 
 Install dependencies:
@@ -57,11 +63,11 @@ Start the development server:
 npm run dev
 ```
 
-Open the local URL displayed in your terminal.
+Vite will provide a local URL in your terminal.
 
 ### Production Build
 
-Create an optimized production build:
+Build the project for production:
 
 ```bash
 npm run build
@@ -73,47 +79,34 @@ Preview the production build locally:
 npm run preview
 ```
 
-The generated production files are placed in the `dist/` directory.
-
-## Project Structure
-
-```text
-hazeemportfoliov2/
-├── public/
-├── src/
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package.json
-├── package-lock.json
-└── README.md
-```
+The generated website files are placed in the `dist/` directory.
 
 ## Deployment
 
-This project can be deployed using GitHub Pages or another static hosting provider.
+This project is deployed using **GitHub Pages** and GitHub Actions.
 
-For GitHub Pages, configure Vite's `base` path to match the repository name when deploying to a repository-specific URL:
+The workflow builds the Vite application and publishes the contents of `dist/` when changes are pushed to the `main` branch.
+
+**Live site:** https://mhazeemshafi.github.io/HazeemPortfolioV2/
+
+For repository-specific GitHub Pages deployment, Vite uses the following base path:
 
 ```js
-export default {
-  base: '/hazeemportfoliov2/',
-}
+base: '/HazeemPortfolioV2/'
 ```
-
-If using `vite.config.js`, add the `base` option to the existing configuration rather than replacing other settings. Then build and deploy the generated `dist/` directory using your chosen GitHub Pages workflow.
 
 ## Author
 
 **Mohammed Hazeem Shafi**
 
-* GitHub: [@MHazeemshafi](https://github.com/MHazeemshafi)
+* GitHub: [@MHazeemshafi](https://github.com/MHazeemShafi)
 * LinkedIn: [Mohammed Hazeem Shafi](https://in.linkedin.com/in/mohammed-hazeem-shafi-b06aa9386)
-* Portfolio: [HazeemPortfolio](https://mhazeemshafi.github.io/HazeemPortfolio/)
 
 ---
 
-*Built with React, Vite, and a little inspiration from the Matrix.*
+<p align="center">
+  <sub>Designed and built by Mohammed Hazeem Shafi.</sub>
+</p>
+
+
 
