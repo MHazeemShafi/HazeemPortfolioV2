@@ -1,16 +1,75 @@
-# React + Vite
+# `> Mohammed Hazeem Shafi_`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Computer Science Student · Aspiring Developer · Tech Enthusiast
 
-Currently, two official plugins are available:
+```text
+┌──────────────────────────────────────────────┐
+│  SYSTEM ONLINE                               │
+│  USER: MHazeemshafi                           │
+│  INTERESTS: WEB DEVELOPMENT / MACHINE LEARNING│
+│  STATUS: BUILDING SOMETHING NEW...            │
+└──────────────────────────────────────────────┘
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+I'm a Computer Science student at **Pace Institute of Technology & Sciences**, exploring web development, programming, and machine learning. I enjoy building projects, experimenting with new technologies, and turning ideas into working applications.
 
-## React Compiler
+* 🎓 Computer Science student — expected graduation: 2029
+* 💻 Interested in web development and machine learning
+* 🛠️ Learning by building real projects
+* 🚀 Open to internships and collaboration opportunities
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## `$ whoami --skills`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Languages & Web Technologies**
+
+`HTML` · `CSS` · `JavaScript` · `Java` · `Python` · `C`
+
+## `$ ls ./projects`
+
+### 01. GitHub Profile Analyzer
+
+Analyze GitHub profiles through a web interface.
+
+* **Live demo:** https://mhazeemshafi.github.io/github-profile-analyzer/
+* **Source code:** https://github.com/MHazeemshafi/github-profile-analyzer
+
+### 02. PixelShrink
+
+A web project focused on image compression.
+
+* **Live demo:** https://mhazeemshafi.github.io/PixelShrink/
+* **Source code:** https://github.com/MHazeemshafi/PixelShrink
+
+### 03. Ec0Watt
+
+A project exploring energy awareness and sustainability.
+
+* **Live demo:** https://mhazeemshafi.github.io/Ec0Watt/
+
+### 04. Personal Portfolio
+
+My personal portfolio showcasing my skills, projects, and developer journey.
+
+* **Live portfolio:** https://mhazeemshafi.github.io/HazeemPortfolio/
+
+---
+
+## `$ connect --socials`
+
+* **GitHub:** https://github.com/MHazeemshafi
+* **LinkedIn:** https://in.linkedin.com/in/mohammed-hazeem-shafi-b06aa9386
+* **Email:** [stryker461@gmail.com](mailto:stryker461@gmail.com)
+
+---
+
+```text
+[INFO] Still learning.
+[INFO] Still building.
+[INFO] Always improving.
+
+> End of transmission.
+```
+
+*“Build. Break. Learn. Repeat.”*
