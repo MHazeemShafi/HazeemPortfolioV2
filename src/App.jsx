@@ -32,7 +32,15 @@ const projects = [
       "A website project exploring an energy-focused concept.",
     technologies: ["HTML", "CSS", "JavaScript"],
     demo: "https://mhazeemshafi.github.io/Ec0Watt/",
-    source: GITHUB,
+    source: "https://github.com/MHazeemshafi/Ec0Watt",
+  },
+  {
+    number: "04",
+    name: "NexSight",
+    description:
+      "A Python desktop computer-vision app for real-time YOLO object detection and tracking, with camera, image, and video input, detection logs, snapshots, CSV export, and optional local face recognition.",
+    technologies: ["Python", "OpenCV", "Ultralytics YOLO", "PySide6", "NumPy"],
+    source: "https://github.com/MHazeemshafi/NexSight",
   },
 ];
 
@@ -47,7 +55,11 @@ const skillGroups = [
   },
   {
     title: "DATABASES & LIBRARIES",
-    skills: ["MySQL", "JSZip", "GitHub REST API"],
+    skills: ["MySQL", "NumPy", "JSZip", "GitHub REST API"],
+  },
+  {
+    title: "COMPUTER VISION",
+    skills: ["OpenCV", "Ultralytics YOLO", "PySide6"],
   },
   {
     title: "TOOLS & DEPLOYMENT",
@@ -223,7 +235,7 @@ function Terminal({ onCommand }) {
       education:
         "Pace Institute of Technology & Sciences\nComputer Science\nExpected graduation: 2029",
       skills:
-        "LANGUAGES\nHTML · CSS · JavaScript · Java · Python · C · SQL\n\nFRONTEND & UI\nReact · TypeScript · Vite · Tailwind CSS · Canvas API · SVG\n\nDATABASES & LIBRARIES\nMySQL · JSZip · GitHub REST API\n\nTOOLS & DEPLOYMENT\nGit · GitHub · npm · ESLint · VS Code · GitHub Pages · Netlify",
+        "LANGUAGES\nHTML · CSS · JavaScript · Java · Python · C · SQL\n\nFRONTEND & UI\nReact · TypeScript · Vite · Tailwind CSS · Canvas API · SVG\n\nDATABASES & LIBRARIES\nMySQL · NumPy · JSZip · GitHub REST API\n\nCOMPUTER VISION\nOpenCV · Ultralytics YOLO · PySide6\n\nTOOLS & DEPLOYMENT\nGit · GitHub · npm · ESLint · VS Code · GitHub Pages · Netlify",
       projects: projects
         .map((project) => `${project.number}. ${project.name}`)
         .join("\n"),
@@ -578,7 +590,7 @@ function App() {
             <p className="section-lead">
               Projects I’ve built and continue to develop.
             </p>
-            <span className="project-count">03 PROJECT ENTRIES</span>
+            <span className="project-count">04 PROJECT ENTRIES</span>
           </div>
 
           <div className="projects-grid">
@@ -601,9 +613,11 @@ function App() {
                 </div>
 
                 <div className="project-links">
-                  <a href={project.demo} target="_blank" rel="noreferrer">
-                    LIVE DEMO ↗
-                  </a>
+                  {project.demo && (
+                    <a href={project.demo} target="_blank" rel="noreferrer">
+                      LIVE DEMO ↗
+                    </a>
+                  )}
 
                   <a href={project.source} target="_blank" rel="noreferrer">
                     SOURCE CODE ↗
