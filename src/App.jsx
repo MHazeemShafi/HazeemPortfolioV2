@@ -223,7 +223,7 @@ function Terminal({ onCommand }) {
       education:
         "Pace Institute of Technology & Sciences\nComputer Science\nExpected graduation: 2029",
       skills:
-        "LANGUAGES\\nHTML · CSS · JavaScript · Java · Python · C · SQL\\n\\nFRONTEND & UI\\nReact · TypeScript · Vite · Tailwind CSS · Canvas API · SVG\\n\\nDATABASES & LIBRARIES\\nMySQL · JSZip · GitHub REST API\\n\\nTOOLS & DEPLOYMENT\\nGit · GitHub · npm · ESLint · VS Code · GitHub Pages · Netlify",
+        "LANGUAGES\nHTML · CSS · JavaScript · Java · Python · C · SQL\n\nFRONTEND & UI\nReact · TypeScript · Vite · Tailwind CSS · Canvas API · SVG\n\nDATABASES & LIBRARIES\nMySQL · JSZip · GitHub REST API\n\nTOOLS & DEPLOYMENT\nGit · GitHub · npm · ESLint · VS Code · GitHub Pages · Netlify",
       projects: projects
         .map((project) => `${project.number}. ${project.name}`)
         .join("\n"),
