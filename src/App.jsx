@@ -38,16 +38,20 @@ const projects = [
 
 const skillGroups = [
   {
-    title: "WEB DEVELOPMENT",
-    skills: ["HTML", "CSS", "JavaScript", "React"],
+    title: "LANGUAGES",
+    skills: ["HTML", "CSS", "JavaScript", "Java", "Python", "C", "SQL"],
   },
   {
-    title: "PROGRAMMING",
-    skills: ["Python", "Java", "C"],
+    title: "FRONTEND & UI",
+    skills: ["React", "TypeScript", "Vite", "Tailwind CSS", "Canvas API", "SVG"],
   },
   {
-    title: "AREAS OF INTEREST",
-    skills: ["Web Development", "Machine Learning"],
+    title: "DATABASES & LIBRARIES",
+    skills: ["MySQL", "JSZip", "GitHub REST API"],
+  },
+  {
+    title: "TOOLS & DEPLOYMENT",
+    skills: ["Git", "GitHub", "npm", "ESLint", "VS Code", "GitHub Pages", "Netlify"],
   },
 ];
 
@@ -187,11 +191,11 @@ function SectionHeading({ number, children }) {
 function Terminal({ onCommand }) {
   const [input, setInput] = useState("");
   const [history, setHistory] = useState([
-    { type: "system", text: "ZEPHYRUS TERMINAL v1.0.0" },
-    { type: "system", text: "Portfolio interface initialized." },
-    { type: "system", text: "Available commands loaded automatically." },
-    { type: "command", text: "help" },
-    { type: "output", text: commands.join("   ") },
+    { type: "system", text: "ZEPHYRUS  /  DEVELOPER CONSOLE" },
+    { type: "output", text: "Welcome, Hazeem. Your portfolio is ready." },
+    { type: "output", text: "Explore skills, projects, education, and contact details." },
+    { type: "system", text: "QUICK START  ·  type a command below" },
+    { type: "output", text: "about  ·  skills  ·  projects  ·  education  ·  contact" },
   ]);
 
   function submitCommand(event) {
@@ -219,7 +223,7 @@ function Terminal({ onCommand }) {
       education:
         "Pace Institute of Technology & Sciences\nComputer Science\nExpected graduation: 2029",
       skills:
-        "HTML | CSS | JavaScript | React | Python | Java | C",
+        "LANGUAGES\\nHTML · CSS · JavaScript · Java · Python · C · SQL\\n\\nFRONTEND & UI\\nReact · TypeScript · Vite · Tailwind CSS · Canvas API · SVG\\n\\nDATABASES & LIBRARIES\\nMySQL · JSZip · GitHub REST API\\n\\nTOOLS & DEPLOYMENT\\nGit · GitHub · npm · ESLint · VS Code · GitHub Pages · Netlify",
       projects: projects
         .map((project) => `${project.number}. ${project.name}`)
         .join("\n"),
