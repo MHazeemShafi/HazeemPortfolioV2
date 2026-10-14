@@ -192,7 +192,7 @@ function Terminal({ onCommand }) {
   const [input, setInput] = useState("");
   const [history, setHistory] = useState([
     { type: "system", text: "ZEPHYRUS  /  DEVELOPER CONSOLE" },
-    { type: "output", text: "Welcome, Hazeem. Your portfolio is ready." },
+    { type: "output", text: "Portfolio initialized. Explore the available commands below." },
     { type: "output", text: "Explore skills, projects, education, and contact details." },
     { type: "system", text: "QUICK START  ·  type a command below" },
     { type: "output", text: "about  ·  skills  ·  projects  ·  education  ·  contact" },
