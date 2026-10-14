@@ -11,8 +11,8 @@ const projects = [
     number: "01",
     name: "GitHub Profile Analyzer",
     description:
-      "A web tool for exploring GitHub profile information through a clean interface.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A pixel-art RPG-style analyzer that turns public GitHub profile and repository data into scores, ranks, stats, and achievements.",
+    technologies: ["React", "TypeScript", "Vite", "GitHub REST API", "CSS"],
     demo: "https://mhazeemshafi.github.io/github-profile-analyzer/",
     source: "https://github.com/MHazeemshafi/github-profile-analyzer",
   },
@@ -20,22 +20,13 @@ const projects = [
     number: "02",
     name: "PixelShrink",
     description:
-      "An image utility project designed to make image optimization straightforward.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A browser-based image resizer and compressor with Canvas-powered exports and ZIP downloads.",
+    technologies: ["JavaScript", "CSS", "Vite", "Canvas API", "JSZip"],
     demo: "https://mhazeemshafi.github.io/PixelShrink/",
     source: "https://github.com/MHazeemshafi/PixelShrink",
   },
   {
     number: "03",
-    name: "HazeemPortfolio",
-    description:
-      "My personal portfolio for presenting my development work and skills.",
-    technologies: ["React", "JavaScript", "CSS"],
-    demo: "https://mhazeemshafi.github.io/HazeemPortfolio/",
-    source: GITHUB,
-  },
-  {
-    number: "04",
     name: "Ec0Watt",
     description:
       "A website project exploring an energy-focused concept.",
@@ -198,7 +189,9 @@ function Terminal({ onCommand }) {
   const [history, setHistory] = useState([
     { type: "system", text: "ZEPHYRUS TERMINAL v1.0.0" },
     { type: "system", text: "Portfolio interface initialized." },
-    { type: "system", text: 'Type "help" to view commands.' },
+    { type: "system", text: "Available commands loaded automatically." },
+    { type: "command", text: "help" },
+    { type: "output", text: commands.join("   ") },
   ]);
 
   function submitCommand(event) {
@@ -581,7 +574,7 @@ function App() {
             <p className="section-lead">
               Projects I’ve built and continue to develop.
             </p>
-            <span className="project-count">04 PROJECT ENTRIES</span>
+            <span className="project-count">03 PROJECT ENTRIES</span>
           </div>
 
           <div className="projects-grid">
